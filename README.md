@@ -1,3 +1,8 @@
-# 2611500056-Azona-PWD-TI1J-26270
-Repository Latihan Pertemuan -1 Sampai dengan -16 Matakuliah pemograman Web Dasar Kelompok TI1J  Tahun Ajaran 2025/2026 Semester Gasal
-azona tampan dan berani
+# Pemrograman Web Dasar
+Nama: Budi Santoso
+NIM: 0344300002
+Kelompok: TI1A
+Tahun Ajaran: 2026/2027 Gasal
+Repository ini digunakan untuk mendokumentasikan perkembangan pembelajaran mata kuliah
+Pemrograman Web Dasar dari Pertemuan 1 sampai dengan Pertemuan 16.
+Setelah seluruh data diperiksa, simpan perubahan pada berkas READ
