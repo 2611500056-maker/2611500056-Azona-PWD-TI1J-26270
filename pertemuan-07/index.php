@@ -3,11 +3,10 @@
 echo $ ["nama"] . "<br>";
 echo $ ["email"]  . "<br>";
 echo $ ["semester"]  ."<br>"; 
-echo $ ["tanggal"] . "<br>";
-
+echo $ ["tanggal"] . "<br>"; 
 $nim = "0344300002";
-$namaMahasiswa = "Cantika Putih";
 $programStudi = "SI";
+$namaMahasiswa = "Cantika Putih
 $tahunAkademik = "2026/2027";
 $semester = 4;
 $ipk = 3.75;

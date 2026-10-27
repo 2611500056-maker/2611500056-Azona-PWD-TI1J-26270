@@ -1,6 +1,6 @@
 <?php
 // P6: PHP dasar dan pemrograman sisi peladen
-// Bagian 1: Variabel dan konstanta
+echo "PHP berhasil dijalankan.";
 $nim = "0344300002";
 $namaMahasiswa = "Cantika Putih";
 $programStudi = "SI";
