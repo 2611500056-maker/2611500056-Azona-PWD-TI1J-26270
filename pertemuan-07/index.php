@@ -1,6 +1,10 @@
 <?php
-// P6: PHP dasar dan pemrograman sisi peladen
-// Bagian 1: Variabel dan konstanta
+// P7: PHP dasar dan pemrograman sisi peladen
+echo $ ["nama"] . "<br>";
+echo $ ["email"]  . "<br>";
+echo $ ["semester"]  ."<br>"; 
+echo $ ["tanggal"] . "<br>";
+
 $nim = "0344300002";
 $namaMahasiswa = "Cantika Putih";
 $programStudi = "SI";
@@ -148,7 +152,7 @@ switch ($programStudi) {
 				<a target="_blank" href="https://github.com/<?= PROFIL_GITHUB ?>">profil GitHub saya</a>.
 			</p>
 
-			<form id="contactForm" action="index.php" method="get" novalidate>
+			<form id="contactForm" action="index.php" method="post" novalidate>
 				<div class="form-group">
 					<label for="nama">Nama Lengkap</label><br />
 
