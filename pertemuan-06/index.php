@@ -2,6 +2,7 @@
 // P6: PHP dasar dan pemrograman sisi peladen
 echo "PHP berhasil dijalankan.";
 echo "keluaran menggunakan echo.";
+echo "<p>konten yang dihasilkan oleh PHP.</p>";
 $nim = "0344300002";
 $namaMahasiswa = "Cantika Putih";
 $programStudi = "SI";
