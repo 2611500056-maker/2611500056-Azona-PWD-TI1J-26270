@@ -154,7 +154,7 @@ switch ($programStudi) {
 			<form id="contactForm" action="index.php" method="post" novalidate>
 				<div class="form-group">
 					<label for="nama">Nama Lengkap</label><br />
-
+								
 					<input
 						class="input-form"
 						type="text"
