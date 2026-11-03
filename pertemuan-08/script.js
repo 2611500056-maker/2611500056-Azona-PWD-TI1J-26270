@@ -126,3 +126,10 @@ contactForms.forEach((contactForm) => {
     }
   });
 });
+document.getElementById('formpinjam').addEventListener('submit', function(event) {
+  let durasi = document.getElementById('durasi').value;
+  if (durasi < 1 || durasi > 30) {
+    event.preventDefault(); // Mencegah pengiriman formulir
+    alert('Durasi peminjaman harus antara 1 hingga 30 hari.');
+  }
+});

@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 // Mengamankan data sebelum ditampilkan kembali ke halaman HTML.
 // P6: PHP dasar dan pemrograman sisi peladen
 // Bagian 1: Variabel dan konstanta
-$nim = "0344300002";
+$nim = "0344300002"
 $namaMahasiswa = "Cantika Putih";
 $programStudi = "SI";
 $tahunAkademik = "2026/2027";
@@ -287,3 +287,34 @@ switch ($programStudi) {
 </body>
 
 </html>
+<!--tambahkan didalam <ul> navigasi --> 
+	<li class="nav-item"> 
+		<a class="nav-link" href="#peminjaman">peminjaman fasilitas</a>
+			</li>
+			<section id="peminjaman" class="section-padding">
+				<div class="container">
+					<h2>permohonan peminjaman fasilitas kampus</h2>
+					<form id ="formpinjam" method="POST" action=">
+					<input type="text" name="nama" id="nama"
+					praceholder="nama penanggung jawab" required>
+
+
+					<select name="fasilitas" id="fasilitas" required>
+						<option valeu="">--pilih fasilitas --</option>
+						<option valeu="ruang kelas">ruang kelas</option>
+						<option valeu="aula">aula</option>
+						<option valeu="laboratorium komputer">laboratorium kkomputer</option>
+						<option valeu="proyektor">proyektor</option>
+			</select>
+
+					<input type="date" name="tanggal" id="tanggal" required>
+					<input type="time" name="waktu" id="waktu" required>
+					<textarea name="keterangan" id="keterangan" placeholder="keterangan tambahan"></textarea>
+					<button type="submit">kirim permohonan</button>
+					</form>
+				</div>
+			</section>
+			
+
+
+		

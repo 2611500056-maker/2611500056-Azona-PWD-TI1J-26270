@@ -8,9 +8,9 @@ echo $_GET["jenis_pesan"] . "<br>";
 echo $_GET["prodi"] . "<br>";
 echo $_GET["pesan"] . "<br>";
 
-// P6: PHP dasar dan pemrograman sisi peladen
+// P8: PHP dasar dan pemrograman sisi peladen
 // Bagian 1: Variabel dan konstanta
-$nim = "0344300002";
+$nim = "0203443000";
 $namaMahasiswa = "Cantika Putih";
 $programStudi = "SI";
 $tahunAkademik = "2026/2027";
