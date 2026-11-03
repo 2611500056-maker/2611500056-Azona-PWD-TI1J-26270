@@ -393,7 +393,36 @@ switch ($programStudi) {
     <button type="submit">Kirim</button>
     <button type="reset">Batal</button>
 </form>
+.field-peminjaman {
+    margin-bottom: 18px;
+}
 
+.field-peminjaman label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.field-peminjaman input,
+.field-peminjaman select,
+.field-peminjaman textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.field-peminjaman textarea {
+    min-height: 100px;
+}
+
+#formPeminjaman button {
+    padding: 10px 22px;
+    margin-right: 8px;
+    cursor: pointer;
+}
 
 
 		
