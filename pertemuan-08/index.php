@@ -288,33 +288,112 @@ switch ($programStudi) {
 
 </html>
 <!--tambahkan didalam <ul> navigasi --> 
-	<li class="nav-item"> 
-		<a class="nav-link" href="#peminjaman">peminjaman fasilitas</a>
-			</li>
-			<section id="peminjaman" class="section-padding">
-				<div class="container">
-					<h2>permohonan peminjaman fasilitas kampus</h2>
-					<form id ="formpinjam" method="POST" action=">
-					<input type="text" name="nama" id="nama"
-					praceholder="nama penanggung jawab" required>
+<section id="peminjaman">
+    <h2>Permohonan Peminjaman Fasilitas Kampus</h2>
 
+    <form method="POST" action="#peminjaman" id="formPeminjaman">
+        <input type="hidden" name="form_peminjaman" value="1">
 
-					<select name="fasilitas" id="fasilitas" required>
-						<option valeu="">--pilih fasilitas --</option>
-						<option valeu="ruang kelas">ruang kelas</option>
-						<option valeu="aula">aula</option>
-						<option valeu="laboratorium komputer">laboratorium kkomputer</option>
-						<option valeu="proyektor">proyektor</option>
-			</select>
+        <label>Nama Penanggung Jawab</label>
+        <input type="text" name="nama_pj" required>
 
-					<input type="date" name="tanggal" id="tanggal" required>
-					<input type="time" name="waktu" id="waktu" required>
-					<textarea name="keterangan" id="keterangan" placeholder="keterangan tambahan"></textarea>
-					<button type="submit">kirim permohonan</button>
-					</form>
-				</div>
-			</section>
-			
+        <label>Jenis Fasilitas</label>
+        <select name="fasilitas" required>
+            <option value="">-- Pilih Fasilitas --</option>
+            <option value="Ruang Kelas">Ruang Kelas</option>
+            <option value="Aula">Aula</option>
+            <option value="Laboratorium Komputer">
+                Laboratorium Komputer
+            </option>
+            <option value="Proyektor">Proyektor</option>
+        </select>
+
+        <label>Tanggal Peminjaman</label>
+        <input type="date" name="tanggal" required>
+
+        <label>Durasi Peminjaman (jam)</label>
+        <input type="number" name="durasi"
+               min="1" max="24" required>
+
+        <label>Keperluan Peminjaman</label>
+        <textarea name="keperluan" required></textarea>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+    </form>
+</section><section id="peminjaman">
+    <h2>Permohonan Peminjaman Fasilitas Kampus</h2>
+
+    <form method="POST" action="#peminjaman" id="formPeminjaman">
+        <input type="hidden" name="form_peminjaman" value="1">
+
+        <label>Nama Penanggung Jawab</label>
+        <input type="text" name="nama_pj" required>
+
+        <label>Jenis Fasilitas</label>
+        <select name="fasilitas" required>
+            <option value="">-- Pilih Fasilitas --</option>
+            <option value="Ruang Kelas">Ruang Kelas</option>
+            <option value="Aula">Aula</option>
+            <option value="Laboratorium Komputer">
+                Laboratorium Komputer
+            </option>
+            <option value="Proyektor">Proyektor</option>
+        </select>
+
+        <label>Tanggal Peminjaman</label>
+        <input type="date" name="tanggal" required>
+
+        <label>Durasi Peminjaman (jam)</label>
+        <input type="number" name="durasi"
+               min="1" max="24" required>
+
+        <label>Keperluan Peminjaman</label>
+        <textarea name="keperluan" required></textarea>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+    </form>
+</section>	
+
+<form method="POST" action="#peminjaman" id="formPeminjaman">
+    <input type="hidden" name="form_peminjaman" value="1">
+
+    <div class="field-peminjaman">
+        <label>Nama Penanggung Jawab</label>
+        <input type="text" name="nama_pj" maxlength="100" required>
+    </div>
+
+    <div class="field-peminjaman">
+        <label>Jenis Fasilitas</label>
+        <select name="fasilitas" required>
+            <option value="">-- Pilih Fasilitas --</option>
+            <option value="Ruang Kelas">Ruang Kelas</option>
+            <option value="Aula">Aula</option>
+            <option value="Laboratorium Komputer">Laboratorium Komputer</option>
+            <option value="Proyektor">Proyektor</option>
+        </select>
+    </div>
+
+    <div class="field-peminjaman">
+        <label>Tanggal Peminjaman</label>
+        <input type="date" name="tanggal" required>
+    </div>
+
+    <div class="field-peminjaman">
+        <label>Durasi Peminjaman (jam)</label>
+        <input type="number" name="durasi" min="1" max="24" required>
+    </div>
+
+    <div class="field-peminjaman">
+        <label>Keperluan Peminjaman</label>
+        <textarea name="keperluan" maxlength="1000" required></textarea>
+    </div>
+
+    <button type="submit">Kirim</button>
+    <button type="reset">Batal</button>
+</form>
+
 
 
 		
